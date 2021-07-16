@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    width: 100%;
+    height: 105px;
+    background: url(./../assets/tech-code-final.png) no-repeat center;
+    background-color: white;
+    margin-top: 0px;
+}
+
+.name{
+    font-size: 3.5em;
+}
+
+.central{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(to right, rgb(20, 19, 19), black);
+    text-align: center;
+    color: white;
+}
+
+.central > h1{
+    margin-top: -10px;
+    font-family: 'Anton';
+    font-size: 70px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+
+footer > h1{
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer > p {
+    text-align: center;
+}
+
+.div-cor{
+    color: darkgoldenrod;
+    padding-top: -30px;
+}
+
+.imagens-produto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.geforce{
+    margin-right: 10px
+}
+
+.formulario{
+    align-items: center;
+    background-color: rgb(48, 45, 45);
+    width: 100%;
+    height: 90vh;  
+}
+
+.extra {
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Anton';
+    font-size: 1.5em;
+    color:rgb(255, 183, 0);
+}
+
+.p-extra{
+    font-family: 'Anton';
+    font-size: 2em;
+}
+
+.form {
+    text-align: center;
+    width: 100%;
+    height: 320px;
+    background-color: rgb(20, 19, 19);
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: darkred;
+    margin-top: -25px;
+}
+
+.cadastro > input {
+    border-radius: 5px;
+    outline: 0;
+    width: 450px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left: 5px;
+    
+}
+
+.button {
+    background-image: linear-gradient(to right, rgb(105, 15, 15), rgb(202, 8, 8));
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    border: 0px;
+    outline: 0;
+}
